@@ -10,7 +10,7 @@ MCU = SN32F268F
 BACKLIGHT_ENABLE = no
 MAGIC_ENABLE = no
 BOOTMAGIC_ENABLE = yes  # Virtual DIP switch configuration
-MOUSEKEY_ENABLE = no    # Mouse keys
+MOUSEKEY_ENABLE = yes    # Mouse keys
 EXTRAKEY_ENABLE = yes   # Audio control and System control
 SLEEP_LED_ENABLE = no   # Breathing sleep LED during USB suspend
 NKRO_ENABLE = yes
@@ -26,7 +26,7 @@ RGB_MATRIX_DRIVER = custom
 RAW_ENABLE = yes
 
 # ENCODER_ENABLE = yes
-# OPENRGB_ENABLE = yes
+ OPENRGB_ENABLE = yes
 
 
 USE_EXCEPTIONS_STACKSIZE = 0xE0
